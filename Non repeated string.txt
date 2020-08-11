@@ -1,0 +1,19 @@
+let str1="helloworld"
+let str2="hello"
+let count=0
+for(let i=0;i<str1.length;i++)
+{
+    let temp=str1[i];
+    console.log(temp)
+    for(let j=0;j<str2.length;j++)
+    {
+        if(temp!=str2[j])
+        {
+            count=count+1;
+        }
+    }
+if(count==str2.length)
+{
+console.log(temp);
+ }
+}
